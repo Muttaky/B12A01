@@ -103,3 +103,10 @@ h5{
 .stars img{
     margin: 0;
 }
+
+.form{
+    display: flex;
+}
+.form button{
+    padding: 10px 50px;
+}
