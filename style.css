@@ -110,3 +110,8 @@ h5{
 .form button{
     padding: 10px 50px;
 }
+footer{
+    border-radius: 20px 20px 0px 0px;
+    background-color: aliceblue;
+    text-align: center;
+}
