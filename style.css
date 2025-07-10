@@ -11,10 +11,15 @@ h2{
     font-size: 2rem;
 }
 button{
+
     background-color: #4E47FF;
     color: white;
     padding: 10px 20px;
     border-radius: 10px;
+}
+button:hover{
+    background-color: brown;
+    font-size: 1rem;
 }
 
 .banner{
@@ -28,6 +33,7 @@ h1{
 }
 
 header{
+    border-radius: 20px;
     background-image: url('images/Hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
