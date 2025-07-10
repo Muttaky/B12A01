@@ -1,5 +1,6 @@
 *{
     margin: 20px 30px;
+    background-color: ;
 }
 nav,.action{
     display: flex;
@@ -24,7 +25,13 @@ button:hover{
 
 .banner{
     text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    padding-bottom: 100px;
 
+}
+.action{
+    margin-bottom: 50px;
 }
 
 h1{
@@ -56,6 +63,7 @@ h3{
     padding: 20px 30px;
     border-radius: 20px;
     text-align: center;
+    margin-bottom: 150px;
 }
 
 .user{
@@ -110,14 +118,24 @@ h5{
     margin: 0;
 }
 
-.form{
+.forms{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
 }
-.form button{
-    padding: 10px 50px;
+.forms button{
+    padding: 10px 130px;
 }
 footer{
     border-radius: 20px 20px 0px 0px;
     background-color: aliceblue;
     text-align: center;
+}
+
+input,textarea{
+    display: block;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
 }
