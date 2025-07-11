@@ -140,3 +140,8 @@ input,textarea{
     border-radius: 10px;
     width: 300px;
 }
+
+a{
+color: black;
+text-decoration: none;
+}
